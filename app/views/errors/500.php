@@ -1,0 +1,1 @@
+<section class="card empty-state"><h2>500 - Lỗi hệ thống</h2><p><?= e($message ?? 'Có lỗi xảy ra.') ?></p></section>
