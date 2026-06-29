@@ -1,0 +1,1 @@
+<section class="card empty-state"><h2>404 - Không tìm thấy trang</h2><p>Đường dẫn không tồn tại.</p></section>
