@@ -1,0 +1,1 @@
+<section class="card empty-state"><h2>403 - Không có quyền truy cập</h2><p>Bạn không có quyền vào chức năng này.</p></section>
