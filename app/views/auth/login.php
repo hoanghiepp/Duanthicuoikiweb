@@ -1,6 +1,6 @@
 <section class="auth-page">
     <form action="<?= app_url(['page'=>'login'])?>" class="auth-card" mathor="post">
-         <?= csrl_field() ?>
+         <?= csrf_field() ?>
          <div class="brand big"><span class="brand-icon">HR</span><span><strong>HR Management</strong><small>Đăng nhập</small></span></div>
          <h1>Chào mừng trở lại</h1>
          <p>Đăng nhập để quản lý nhân sự.</p>
