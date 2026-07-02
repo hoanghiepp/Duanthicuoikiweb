@@ -11,7 +11,7 @@ class Auth{
 
     public static function login(string $username, string $password): bool{
         $user = Database::fetch('SELECT * FROM users WHERE (username = ? OR email = ?) AND status = "active" LIMIT 1', [$username, $username]);
-        if(!$user || !password_verify($password, users['password'])) return false;
+        if(!$user || !password_verify($password, $user['password'])) return false;
         session_regenerate_id(true);
         $_SESSION['user_id'] = (int)$user['id'];
         $_SESSION['role'] = $user['role'];
